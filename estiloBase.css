@@ -52,7 +52,6 @@ body{
     text-align: center;
     font-style: italic;
     margin-bottom: 1.5%;
-    /* background-color: aqua; */
     float: left;
     width: 100%;
 }
@@ -121,7 +120,6 @@ body{
     margin-left: 4vw;
     margin-top: 1vw;
     margin-bottom: -1vw;
-
 }
 
 .caixaDesDireita {
@@ -142,7 +140,6 @@ body{
 }
 .textoDescricao {
 
-    /* background-color: bisque; */
     text-align: justify;
 
     float: left;
@@ -164,11 +161,7 @@ body{
     height: 100%;
     float: left;
 }
-.caixaComTimeline{
-    float: left;
-    width: 100%;
-    font-size: 1.2vw;
-}
+/* Caixas da linha do tempo - Experiencia */
 .timelineAno{
     background-color: #23133E;
     width: 4vw;
@@ -178,7 +171,44 @@ body{
     font-style: italic;
     margin-left: -1.5vw;
     margin-top: 1vw;
+
+
 }
+.cx1 {
+    margin-top: 3vw;
+    margin-bottom: 7vw;
+}
+.cx2 {
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+}
+.cx3 {
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+.cx4 {
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+}
+.cx5 {
+    /* vazia */
+}
+.cx6 {
+    margin-top: 3vw;margin-bottom: 4.5vw;
+}
+.cx7 {
+    margin-top: 3vw;margin-bottom: 4vw;
+}
+.cx8 {
+    margin-top: 3vw;margin-bottom: 1vw;
+}
+
+.caixaComTimeline{
+    float: left;
+    width: 100%;
+    font-size: 1.2vw;
+}
+
 .timeLine{
     content: '';
     position: relative;
@@ -191,5 +221,11 @@ body{
 
     margin-left: 5.5vw;
     z-index: 10;
+}
 
+.ico1{
+    margin-left: 0.25vw;
+}
+.ico2{
+    margin-left: 0.25vw;
 }

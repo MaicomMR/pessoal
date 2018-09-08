@@ -1,0 +1,163 @@
+@media only screen and (max-width: 600px) {
+    body {
+        
+    }
+    .layoutPagina{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 210vh;
+        
+    }
+    .foto{
+        width: 40vw;
+        height: 40vw;
+        border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2.5vh;
+    
+    }
+    .foto img{
+        width: 40vw;
+        height: 40vw;
+        border-radius: 100%;
+        border: 1px rgb(255, 255, 255);
+        border-style: solid;
+    
+    }
+    .abaEsquerda{
+        float: left;
+        width: 100%;
+        height: auto;
+        background-color: #23133E;
+        color: white;
+        box-shadow: 0vh 4vh 3vh 2vh #aaaaaa;
+        padding-bottom: 10vh;
+    }
+    .dadosContato {
+        text-align: center;
+        font-size: 4vw;
+        line-height: 2em;
+    }
+    .nomeIdent{
+        font-size: 7vw;
+        text-align: center;
+        margin-bottom: 0vw;
+    }
+    .subtitulos{
+        font-size: 5vw;
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 1.5%;
+        float: left;
+        width: 100%;
+    }
+    .caixaQualidades {
+        font-size: 4vw;
+        line-height: 6vw;
+        text-align: center;
+        /* background-color: aqua; */
+    }
+    .caixaQualidades .esquerda{
+        /* background-color: blue; */
+        width: 40%;
+        float: left;
+        text-align: left;
+        padding-left: 6%;
+    
+    }
+    .statBalls {
+        width: 4.5vw;
+    }
+
+/* Aba da direita */
+.abaDireita{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2vh, 2vh 0vh 2vh 0vh #dadada;
+}
+.caixaDescDireita {
+    background-color: #23133E;
+    width: 45vw;
+    padding-bottom: 0.5vw;
+    font-size: 4vw;
+}
+.caixaIconeDireita{
+
+    width: 10vw;
+    height: 10vw;
+}
+.caixaDesDireita {
+    width: 29.5vw;
+    padding-left: 4vw;
+    padding-top: 2vw;
+    margin-left: 1.25vw;
+    margin-top: 1vw;
+    margin-bottom: -1vw;
+    height: 8vw;
+    font-size: 4vw;
+}
+.textoDescricao {
+
+    font-size: 3.8vw;
+
+    padding-left: 0.5vw;
+    padding-top: 0.5vw;
+    padding-right: 8vw;
+
+    margin-left: 4vw;
+    margin-top: 0.25vw;
+
+    font-weight: 300;
+    
+}
+
+.timelineAno{
+    background-color: #23133E;
+    width: 10vw;
+    font-size: 4vw;
+  
+    text-align: center;
+    color: white;
+    font-style: italic;
+    margin-left: -5.5vw;
+    margin-top: 5vw;
+}
+.cx1 {
+    margin-top: 5vw;
+    margin-bottom: 20vw;
+}
+.cx2 {
+    margin-top: 3vw;
+    margin-bottom: 19vw;
+}
+.cx3 {
+    margin-top: 3vw;
+    margin-bottom: 15vw;
+}
+.cx4 {
+    margin-top: 3vw;
+    margin-bottom: 8vw;
+}
+.cx5 {
+    /* vazia */
+}
+.cx6 {
+    margin-top: 5vw;margin-bottom: 9vw;
+}
+.cx7 {
+    margin-top: 3vw;margin-bottom: 15vw;
+}
+.cx8 {
+    margin-top: 3vw;margin-bottom: 8vw;
+}
+.ico1{
+    margin-left: 0;
+}
+.ico2{
+    visibility: hidden;
+}
