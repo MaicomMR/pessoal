@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estiloContato.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i" rel="stylesheet">
+    <title>Contato</title>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body>
+    <div class="caixaTopo">
+        <a href="index.html">
+            <div class="btnVoltar">
+                Voltar</a>
+        </div>
+    </div>
+    <div class="caixaMeio">
+        <div class="mensagemCxMeio">
+            Sinta-se a vontade para enviar um e-mail através do campo a baixo...</div>
+        <div class="caixaDeTexto">
+        <form action="enviando.php" method="POST">
+            <div class="caixasEntrada"> Seu e-mail:
+                <br>
+                <input type="email" name="emailEnviador" id="" size="30" autofocus placeholder="seuemail@exemplo.com">
+            </div>
+            <div class="caixasEntrada">Assunto:<br>
+            <input type="text" name="assunto" id="" placeholder="Assunto do e-mail" size="30"></div>
+            
+                <textarea name="mensagem" id="" cols="30" rows="8" style="resize: none; width: 99%; margin-top: 1vw; " placeholder="Estamos trabalhando na construção dessa página, Desculpe o transtorno :(    Mas você ainda pode me enviar um e-mail, é só enviar apra maicom_mr@hotmail.com   :)"></textarea>
+                <br/>
+                <div class="g-recaptcha" data-sitekey="6LeAKm8UAAAAANnZJli2E1DjmoT3siDes3rgAzKJ" style="float: left; height: 10vw"></div>
+                <button type="submit" value="Enviar">Enviar</button>
+        </form>
+        </div>
+    </div>
+</body>
+
+</html>
