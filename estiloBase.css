@@ -98,6 +98,27 @@ body{
     box-shadow: 0px 2vh, 2vh 0vh 2vh 0vh #dadada;
 }
 
+.caixaContato{
+    float: right;
+    background-color: #23133E;
+    width: 19vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    color: white;
+    font-size: 1.6vw;
+    font-style: italic;
+    padding-left: 1vw;
+    margin-left: 3vw;
+    margin-top: -3vw;
+    text-align: center;
+    transition: 0.2s;
+}
+.caixaContato:hover{
+
+    background-color: rgb(44, 23, 80);
+    transition: 0.2s;
+}
+
 .caixaDescDireita {
     background-color: #23133E;
     width: 19vw;
