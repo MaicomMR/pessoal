@@ -3,25 +3,22 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-image: url("background.png");
     background-repeat: repeat;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    height: auto;
 }
 .layoutPagina{
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    height: auto;
     height: 100%; 
 }
-.abaEsquerda{
-    flex-grow: 1;
+#abaEsquerda{
     float: left;
     width: 22%;
-    height: 100%;
+    height: 80%;
     background-color: #23133E;
     color: white;
-    box-shadow: 0vh 4vh 3vh 2vh #aaaaaa;
+    box-shadow: -3vh 0vh 3vh #aaaaaa;
+    padding-bottom: 11vh;
 }
 .foto{
     width: 16vw;
@@ -66,14 +63,12 @@ body{
     text-align: center;
 }
 .caixaQualidades .esquerda{
-    /* background-color: blue; */
     width: 40%;
     float: left;
     text-align: left;
     padding-left: 6%;
 }
 .caixaQualidades .direita{
-    /* background-color: rgb(40, 40, 151); */
     width: 50%;
     float: left;
     padding-right: 4%;
@@ -84,12 +79,15 @@ body{
 /* =============================================== */
 /* ===============   ABA DIREITA    ============== */
 /* =============================================== */
-.abaDireita{
-    flex-grow: 1;
+#abaDireita{
+ 
+    height: 100%;
     float: left;
     width: 70%;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 2vh, 2vh 0vh 2vh 0vh #dadada;
+    box-shadow: 2vh 0vh 2vh 0vh #dadada;
+    padding-bottom: 11vh;
+
 }
 .caixaContato{
     float: right;
@@ -149,7 +147,7 @@ body{
 .textoDescricao {
     text-align: justify;
     float: left;
-    font-size: 1.7vw;
+    font-size: 1.62vw;
     padding-left: 1vw;
     padding-top: 0.5vw;
     padding-right: 3vw;
@@ -188,9 +186,9 @@ body{
     margin-top: 3vw;
     margin-bottom: 3vw;
 }
-.cx5 {
-    /* vazia */
-}
+/*.cx5 {
+     vazia 
+}*/
 .cx6 {/* 2009 */
     margin-top: 3vw;margin-bottom: 4.5vw;
 }
@@ -223,3 +221,8 @@ body{
 .ico2{
     margin-left: 0.25vw;
 }
+
+.iconeContato {
+width: 4vh;
+margin: 0.25vh;
+  }

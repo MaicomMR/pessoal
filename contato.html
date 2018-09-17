@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -22,28 +22,21 @@
         <div class="mensagemCxMeio">
             Sinta-se a vontade para enviar um e-mail através do campo a baixo...</div>
         <div class="caixaDeTexto">
+        <form action="enviando.php" method="POST">
             <div class="caixasEntrada"> Seu e-mail:
                 <br>
-                <input disabled type="email" name="" id="" size="30" autofocus placeholder="seuemail@exemplo.com">
+                <input type="email" name="emailEnviador" id="" size="30" autofocus placeholder="seuemail@exemplo.com">
             </div>
             <div class="caixasEntrada">Assunto:<br>
-            <input disabled type="text" name="" id="" size="30"></div>
-            <form action="?" method="POST">
-                <textarea disabled name="" id="" cols="30" rows="8" style="resize: none; width: 99%; margin-top: 1vw; " placeholder="Estamos trabalhando na construção dessa página, Desculpe o transtorno :(    Mas você ainda pode me enviar um e-mail, é só enviar apra maicom_mr@hotmail.com   :)"></textarea>
+            <input type="text" name="assunto" id="" placeholder="Assunto do e-mail" size="30"></div>
+            
+                <textarea name="mensagem" id="" cols="30" rows="8" style="resize: none; width: 99%; margin-top: 1vw; " placeholder="Estamos trabalhando na construção dessa página, Desculpe o transtorno :(    Mas você ainda pode me enviar um e-mail, é só enviar apra maicom_mr@hotmail.com   :)"></textarea>
                 <br/>
                 <div class="g-recaptcha" data-sitekey="6LeAKm8UAAAAANnZJli2E1DjmoT3siDes3rgAzKJ" style="float: left; height: 10vw"></div>
                 <button type="submit" value="Enviar">Enviar</button>
-            </form>
-
-
-
+        </form>
         </div>
-
-
     </div>
-
-
-
 </body>
 
 </html>

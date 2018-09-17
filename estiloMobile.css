@@ -1,7 +1,5 @@
 @media only screen and (max-width: 600px) {
-    body {
-        
-    }
+
     .layoutPagina{
         width: 85%;
         margin-left: auto;
@@ -26,7 +24,7 @@
         border-style: solid;
     
     }
-    .abaEsquerda{
+    #abaEsquerda{
         float: left;
         width: 100%;
         height: auto;
@@ -72,7 +70,7 @@
     }
 
 /* Aba da direita */
-.abaDireita{
+#abaDireita{
     float: left;
     width: 100%;
     height: auto;
