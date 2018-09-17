@@ -7,16 +7,12 @@ body{
     display: flex;
     flex-direction: column;
 }
-
-
 .layoutPagina{
-
     width: 85%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    height: 100%;
-    
+    height: 100%; 
 }
 .abaEsquerda{
     flex-grow: 1;
@@ -34,7 +30,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 2.5vh;
-
 }
 .foto img{
     width: 16vw;
@@ -42,7 +37,6 @@ body{
     border-radius: 100%;
     border: 1px rgb(255, 255, 255);
     border-style: solid;
-
 }
 .dadosContato {
     text-align: center;
@@ -61,13 +55,11 @@ body{
     float: left;
     width: 100%;
 }
-
 .icone {
     width: 16%;
     margin-bottom: -5%;
     margin-top: 1vw;
 }
-
 .caixaQualidades {
     font-size: 1.2vw;
     line-height: 2.5vw;
@@ -79,20 +71,16 @@ body{
     float: left;
     text-align: left;
     padding-left: 6%;
-
 }
 .caixaQualidades .direita{
     /* background-color: rgb(40, 40, 151); */
     width: 50%;
     float: left;
     padding-right: 4%;
-
 }
-
 .statBalls {
     width: 0.9vw;
 }
-
 /* =============================================== */
 /* ===============   ABA DIREITA    ============== */
 /* =============================================== */
@@ -102,9 +90,7 @@ body{
     width: 70%;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 2vh, 2vh 0vh 2vh 0vh #dadada;
-
 }
-
 .caixaContato{
     float: right;
     background-color: #23133E;
@@ -125,7 +111,6 @@ body{
     background-color: rgb(44, 23, 80);
     transition: 0.2s;
 }
-
 .caixaDescDireita {
     background-color: #23133E;
     width: 19vw;
@@ -138,52 +123,40 @@ body{
     margin-left: 3vw;
     margin-top: 3vw;
 }
-
 .caixaIconeDireita{
     float: left;
     width: 3vw;
     height: 3vw;   
     background-color: rgb(62, 27, 122);
-
     margin-left: 4vw;
     margin-top: 1vw;
     margin-bottom: -1vw;
 }
-
 .caixaDesDireita {
     float: left;
     width: 14.5vw;
     padding-left: 1vw;
     padding-top: 0.5vw;
     margin-left: 0.25vw;
-
     margin-top: 1vw;
     margin-bottom: -1vw;
     height: 2.5vw;
-
     background-color: #23133E;
     color: white;
     font-style: italic;
     font-size: 1.6vw;
 }
 .textoDescricao {
-
     text-align: justify;
-
     float: left;
     font-size: 1.7vw;
-
     padding-left: 1vw;
     padding-top: 0.5vw;
     padding-right: 3vw;
-
     margin-left: 4vw;
     margin-top: 0.25vw;
-
-    font-weight: 300;
-    
+    font-weight: 300;    
 }
-
 .linhaDoTempo {
     width: 10vw;
     height: 100%;
@@ -192,65 +165,58 @@ body{
 /* Caixas da linha do tempo - Experiencia */
 .timelineAno{
     background-color: #23133E;
-    width: 4vw;
-  
+    width: 4vw;  
     text-align: center;
     color: white;
     font-style: italic;
     margin-left: -1.5vw;
     margin-top: 1vw;
-
-
 }
-.cx1 {
+.cx1 { /* 2013 */
     margin-top: 3vw;
     margin-bottom: 7vw;
 }
-.cx2 {
-    margin-top: 3vw;
-    margin-bottom: 4vw;
-}
-.cx3 {
+.cx2 { /* 2013 */
     margin-top: 3vw;
     margin-bottom: 5vw;
 }
-.cx4 {
+.cx3 { /* 2015 */
     margin-top: 3vw;
-    margin-bottom: 2vw;
+    margin-bottom: 4.5vw;
+}
+.cx4 { /* 2016 */
+    margin-top: 3vw;
+    margin-bottom: 3vw;
 }
 .cx5 {
     /* vazia */
 }
-.cx6 {
+.cx6 {/* 2009 */
     margin-top: 3vw;margin-bottom: 4.5vw;
 }
-.cx7 {
-    margin-top: 3vw;margin-bottom: 4vw;
+.cx7 {/* 2014 */
+    margin-top: 3vw;
+    margin-bottom: 5vw;
 }
-.cx8 {
-    margin-top: 3vw;margin-bottom: 1vw;
+.cx8 {/* 2017 */
+    margin-top: 3vw;margin-bottom: -0.3vw;
 }
-
 .caixaComTimeline{
     float: left;
     width: 100%;
     font-size: 1.2vw;
 }
-
 .timeLine{
     content: '';
     position: relative;
     width: 1vw;
-
     background-image: linear-gradient(rgba(35, 19, 62, 0.5) 50%, rgba(255,255,255,0) 0%);
     background-position: right;
     background-size: 1vw 2vw;
     background-repeat: repeat-y;
-
     margin-left: 5.5vw;
     z-index: 10;
 }
-
 .ico1{
     margin-left: 0.25vw;
 }
