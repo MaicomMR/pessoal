@@ -183,8 +183,15 @@ body{
     margin-bottom: 4vw;
 }
 .cx4 { /* 2016 */
+    margin-top: 4.6vw;
+    margin-bottom: 4.2vw;
+}
+.cx5 { /* 2019 */
     margin-top: 3vw;
-    margin-bottom: 3vw;
+    margin-bottom: 0vw;
+}
+.cxAno6 {
+
 }
 /*.cx5 {
      vazia 
@@ -225,4 +232,9 @@ body{
 .iconeContato {
 width: 4vh;
 margin: 0.25vh;
+  }
+
+  /* Remover estilo dos botões FB/Linked/Git */
+  a {
+    text-decoration: none;
   }
