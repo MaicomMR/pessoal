@@ -14,7 +14,7 @@ body{
 #abaEsquerda{
     float: left;
     width: 22%;
-    height: 80%;
+    height: auto;
     background-color: #23133E;
     color: white;
     box-shadow: -3vh 0vh 3vh #aaaaaa;
@@ -80,8 +80,7 @@ body{
 /* ===============   ABA DIREITA    ============== */
 /* =============================================== */
 #abaDireita{
- 
-    height: 100%;
+    height: auto;
     float: left;
     width: 70%;
     background-color: rgb(255, 255, 255);

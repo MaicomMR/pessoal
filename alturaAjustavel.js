@@ -1,5 +1,5 @@
 setTimeout(
     function(){
-        var x = $('#abaEsquerda').height();
-        $('#abaDireita').css('height', x);
+        var x = $('#abaDireita').height();
+        $('#abaEsquerda').css('height', x);
     }, 1000);
